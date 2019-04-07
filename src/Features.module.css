@@ -1,0 +1,52 @@
+.container {
+    background-color: #F8F8F8;
+}
+
+.features {
+    background: linear-gradient(to right, rgba(248,248,248,1) 0%,rgba(248,248,248,1) 13%,rgba(251,227,134,1) 13%,rgba(251,227,134,1) 25%,rgba(248,248,248,1) 25%,rgba(248,248,248,1) 100%);     /*background-image: url("./yellow_rectangle.svg"), url("./iphones.png");*/
+    background-image: url("./yellow_rectangle.svg"), url("./iphones.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 12.5% 0px, 100% 0px;
+    color: #3F3F3F;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /*width: 400px;*/
+    padding-top: 100px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    min-height: 475px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: normal;
+    letter-spacing: 1.23077px;
+}
+
+.subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.923077px;
+    color: #7A7A7A;
+    padding-left: 50px;
+}
+
+.mainText {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.676923px;
+    padding-left: 50px;
+    padding-top: 50px;
+    width: 40%;
+}

@@ -1,0 +1,74 @@
+.container {
+    background: linear-gradient(133.17deg, #FCEB6F 19.71%, #FEDE60 74.71%);
+}
+
+.header {
+    background: url("./iphone.png") no-repeat right bottom;
+    position: relative;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin: 0 60px 0 0;
+    padding: 50px 0 0;
+    letter-spacing: 0.652123px;
+}
+
+.navigation li {
+    margin-left: 25px;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+.navigation a:visited {
+    color: #333333;
+}
+
+.logo {
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 32px;
+    left: 50px;
+}
+
+.content {
+    width: 522px;
+    margin-left: 50px;
+    padding-bottom: 100px;
+}
+
+.title {
+    margin-top: 200px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: normal;
+}
+
+.subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: normal;
+}
+
+.description {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 32px;
+    padding-top: 50px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+

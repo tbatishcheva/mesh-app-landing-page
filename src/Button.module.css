@@ -1,0 +1,35 @@
+.button {
+    background-color: transparent;
+    min-width: 224px;
+    min-height: 62px;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 8px 9px rgba(0, 0, 0, 0.0746433);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.button:visited {
+    color: #333333;
+}
+
+.hasBorder {
+    border: 2px solid #3E3E3E;
+}
+.withoutBorder {
+    border: none;
+}
+
+.withMargin {
+    margin-right: 50px;
+}
+
+.withoutMargin {
+    margin-right: 0px;
+    margin-left: 0px;
+}
